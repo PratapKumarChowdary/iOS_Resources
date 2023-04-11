@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290AABCC29AE4012006B31A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AABCB29AE4012006B31A5 /* AppDelegate.swift */; };
+		290AABCE29AE4012006B31A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AABCD29AE4012006B31A5 /* SceneDelegate.swift */; };
+		290AABD029AE4012006B31A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AABCF29AE4012006B31A5 /* ViewController.swift */; };
+		290AABD329AE4012006B31A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290AABD129AE4012006B31A5 /* Main.storyboard */; };
+		290AABD529AE4015006B31A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290AABD429AE4015006B31A5 /* Assets.xcassets */; };
+		290AABD829AE4015006B31A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290AABD629AE4015006B31A5 /* LaunchScreen.storyboard */; };
+		290AABE329AE4015006B31A5 /* Kuchi_SurgeryCostAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AABE229AE4015006B31A5 /* Kuchi_SurgeryCostAppTests.swift */; };
+		290AABED29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AABEC29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests.swift */; };
+		290AABEF29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AABEE29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		290AABDF29AE4015006B31A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290AABC029AE4012006B31A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290AABC729AE4012006B31A5;
+			remoteInfo = Kuchi_SurgeryCostApp;
+		};
+		290AABE929AE4015006B31A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290AABC029AE4012006B31A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290AABC729AE4012006B31A5;
+			remoteInfo = Kuchi_SurgeryCostApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		290AABC829AE4012006B31A5 /* Kuchi_SurgeryCostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuchi_SurgeryCostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		290AABCB29AE4012006B31A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		290AABCD29AE4012006B31A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		290AABCF29AE4012006B31A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		290AABD229AE4012006B31A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		290AABD429AE4015006B31A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		290AABD729AE4015006B31A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		290AABD929AE4015006B31A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290AABDE29AE4015006B31A5 /* Kuchi_SurgeryCostAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kuchi_SurgeryCostAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		290AABE229AE4015006B31A5 /* Kuchi_SurgeryCostAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuchi_SurgeryCostAppTests.swift; sourceTree = "<group>"; };
+		290AABE829AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kuchi_SurgeryCostAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		290AABEC29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuchi_SurgeryCostAppUITests.swift; sourceTree = "<group>"; };
+		290AABEE29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuchi_SurgeryCostAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290AABC529AE4012006B31A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290AABDB29AE4015006B31A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290AABE529AE4015006B31A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290AABBF29AE4012006B31A5 = {
+			isa = PBXGroup;
+			children = (
+				290AABCA29AE4012006B31A5 /* Kuchi_SurgeryCostApp */,
+				290AABE129AE4015006B31A5 /* Kuchi_SurgeryCostAppTests */,
+				290AABEB29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests */,
+				290AABC929AE4012006B31A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		290AABC929AE4012006B31A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290AABC829AE4012006B31A5 /* Kuchi_SurgeryCostApp.app */,
+				290AABDE29AE4015006B31A5 /* Kuchi_SurgeryCostAppTests.xctest */,
+				290AABE829AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		290AABCA29AE4012006B31A5 /* Kuchi_SurgeryCostApp */ = {
+			isa = PBXGroup;
+			children = (
+				290AABCB29AE4012006B31A5 /* AppDelegate.swift */,
+				290AABCD29AE4012006B31A5 /* SceneDelegate.swift */,
+				290AABCF29AE4012006B31A5 /* ViewController.swift */,
+				290AABD129AE4012006B31A5 /* Main.storyboard */,
+				290AABD429AE4015006B31A5 /* Assets.xcassets */,
+				290AABD629AE4015006B31A5 /* LaunchScreen.storyboard */,
+				290AABD929AE4015006B31A5 /* Info.plist */,
+			);
+			path = Kuchi_SurgeryCostApp;
+			sourceTree = "<group>";
+		};
+		290AABE129AE4015006B31A5 /* Kuchi_SurgeryCostAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				290AABE229AE4015006B31A5 /* Kuchi_SurgeryCostAppTests.swift */,
+			);
+			path = Kuchi_SurgeryCostAppTests;
+			sourceTree = "<group>";
+		};
+		290AABEB29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				290AABEC29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests.swift */,
+				290AABEE29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITestsLaunchTests.swift */,
+			);
+			path = Kuchi_SurgeryCostAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		290AABC729AE4012006B31A5 /* Kuchi_SurgeryCostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290AABF229AE4015006B31A5 /* Build configuration list for PBXNativeTarget "Kuchi_SurgeryCostApp" */;
+			buildPhases = (
+				290AABC429AE4012006B31A5 /* Sources */,
+				290AABC529AE4012006B31A5 /* Frameworks */,
+				290AABC629AE4012006B31A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kuchi_SurgeryCostApp;
+			productName = Kuchi_SurgeryCostApp;
+			productReference = 290AABC829AE4012006B31A5 /* Kuchi_SurgeryCostApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		290AABDD29AE4015006B31A5 /* Kuchi_SurgeryCostAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290AABF529AE4015006B31A5 /* Build configuration list for PBXNativeTarget "Kuchi_SurgeryCostAppTests" */;
+			buildPhases = (
+				290AABDA29AE4015006B31A5 /* Sources */,
+				290AABDB29AE4015006B31A5 /* Frameworks */,
+				290AABDC29AE4015006B31A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290AABE029AE4015006B31A5 /* PBXTargetDependency */,
+			);
+			name = Kuchi_SurgeryCostAppTests;
+			productName = Kuchi_SurgeryCostAppTests;
+			productReference = 290AABDE29AE4015006B31A5 /* Kuchi_SurgeryCostAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		290AABE729AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290AABF829AE4015006B31A5 /* Build configuration list for PBXNativeTarget "Kuchi_SurgeryCostAppUITests" */;
+			buildPhases = (
+				290AABE429AE4015006B31A5 /* Sources */,
+				290AABE529AE4015006B31A5 /* Frameworks */,
+				290AABE629AE4015006B31A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290AABEA29AE4015006B31A5 /* PBXTargetDependency */,
+			);
+			name = Kuchi_SurgeryCostAppUITests;
+			productName = Kuchi_SurgeryCostAppUITests;
+			productReference = 290AABE829AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290AABC029AE4012006B31A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					290AABC729AE4012006B31A5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					290AABDD29AE4015006B31A5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 290AABC729AE4012006B31A5;
+					};
+					290AABE729AE4015006B31A5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 290AABC729AE4012006B31A5;
+					};
+				};
+			};
+			buildConfigurationList = 290AABC329AE4012006B31A5 /* Build configuration list for PBXProject "Kuchi_SurgeryCostApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 290AABBF29AE4012006B31A5;
+			productRefGroup = 290AABC929AE4012006B31A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				290AABC729AE4012006B31A5 /* Kuchi_SurgeryCostApp */,
+				290AABDD29AE4015006B31A5 /* Kuchi_SurgeryCostAppTests */,
+				290AABE729AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		290AABC629AE4012006B31A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290AABD829AE4015006B31A5 /* LaunchScreen.storyboard in Resources */,
+				290AABD529AE4015006B31A5 /* Assets.xcassets in Resources */,
+				290AABD329AE4012006B31A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290AABDC29AE4015006B31A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290AABE629AE4015006B31A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290AABC429AE4012006B31A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290AABD029AE4012006B31A5 /* ViewController.swift in Sources */,
+				290AABCC29AE4012006B31A5 /* AppDelegate.swift in Sources */,
+				290AABCE29AE4012006B31A5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290AABDA29AE4015006B31A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290AABE329AE4015006B31A5 /* Kuchi_SurgeryCostAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290AABE429AE4015006B31A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290AABEF29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITestsLaunchTests.swift in Sources */,
+				290AABED29AE4015006B31A5 /* Kuchi_SurgeryCostAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		290AABE029AE4015006B31A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290AABC729AE4012006B31A5 /* Kuchi_SurgeryCostApp */;
+			targetProxy = 290AABDF29AE4015006B31A5 /* PBXContainerItemProxy */;
+		};
+		290AABEA29AE4015006B31A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290AABC729AE4012006B31A5 /* Kuchi_SurgeryCostApp */;
+			targetProxy = 290AABE929AE4015006B31A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		290AABD129AE4012006B31A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290AABD229AE4012006B31A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		290AABD629AE4015006B31A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290AABD729AE4015006B31A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		290AABF029AE4015006B31A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		290AABF129AE4015006B31A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		290AABF329AE4015006B31A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kuchi_SurgeryCostApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kuchi_SurgeryCostApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kuchi-SurgeryCostApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		290AABF429AE4015006B31A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kuchi_SurgeryCostApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kuchi_SurgeryCostApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kuchi-SurgeryCostApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		290AABF629AE4015006B31A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kuchi-SurgeryCostAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kuchi_SurgeryCostApp.app/Kuchi_SurgeryCostApp";
+			};
+			name = Debug;
+		};
+		290AABF729AE4015006B31A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kuchi-SurgeryCostAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kuchi_SurgeryCostApp.app/Kuchi_SurgeryCostApp";
+			};
+			name = Release;
+		};
+		290AABF929AE4015006B31A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kuchi-SurgeryCostAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kuchi_SurgeryCostApp;
+			};
+			name = Debug;
+		};
+		290AABFA29AE4015006B31A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kuchi-SurgeryCostAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kuchi_SurgeryCostApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290AABC329AE4012006B31A5 /* Build configuration list for PBXProject "Kuchi_SurgeryCostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290AABF029AE4015006B31A5 /* Debug */,
+				290AABF129AE4015006B31A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290AABF229AE4015006B31A5 /* Build configuration list for PBXNativeTarget "Kuchi_SurgeryCostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290AABF329AE4015006B31A5 /* Debug */,
+				290AABF429AE4015006B31A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290AABF529AE4015006B31A5 /* Build configuration list for PBXNativeTarget "Kuchi_SurgeryCostAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290AABF629AE4015006B31A5 /* Debug */,
+				290AABF729AE4015006B31A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290AABF829AE4015006B31A5 /* Build configuration list for PBXNativeTarget "Kuchi_SurgeryCostAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290AABF929AE4015006B31A5 /* Debug */,
+				290AABFA29AE4015006B31A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 290AABC029AE4012006B31A5 /* Project object */;
+}
