@@ -1,0 +1,12 @@
+func animateShake() {
+            let shakeAnimation = CABasicAnimation(keyPath: "position")
+            shakeAnimation.duration = 0.05
+            shakeAnimation.repeatCount = 3
+            shakeAnimation.autoreverses = true
+        shakeAnimation.fromValue = NSValue(cgPoint: CGPoint(x: animateImageOL.center.x - 5, y: animateImageOL.center.y - 4))
+            shakeAnimation.toValue = NSValue(cgPoint: CGPoint(x: animateImageOL.center.x + 5, y: animateImageOL.center.y + 4))
+            animateImageOL.layer.add(shakeAnimation, forKey: "position")
+        animateImageOL.startAnimating()
+        animateImageOL.image = UIImage(named: imageName)
+
+        }
